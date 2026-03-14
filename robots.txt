@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block access to sensitive directories
+Disallow: /.devinfo/
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /.git/
+
+# Sitemap
+Sitemap: https://bioveins.in/sitemap.xml
